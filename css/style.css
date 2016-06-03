@@ -14,6 +14,10 @@ a:hover {
     text-decoration: underline;
 }
 
+h2 {
+    font-size: 100%;
+}
+
 .clear {
     clear:both;
 }
@@ -47,6 +51,47 @@ img {
 #navi {
     float: left;
     width: 170px;
+}
+
+#navi h2 {
+    margin: 0;
+    font-weight: normal;
+    padding: 3px 7px 2px;
+    background-color: white;
+}
+
+#contentbox ul {
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+}
+
+#contentbox li{
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+    line-height: 22px
+}
+
+#contentbox .shopping {
+    background-image: url('../img/shopping.png');
+}
+
+#contentbox .auction {
+    background-image: url('../img/auction.png');
+}
+
+#contentbox .travel {
+    background-image: url('../img/travel.png');
+}
+
+#contentbox .news {
+    background-image: url('../img/news.png');
+}
+
+#contentbox .weather {
+    background-image: url('../img/weather.png');
 }
 
 #main {
