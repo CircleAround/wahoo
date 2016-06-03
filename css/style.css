@@ -1,0 +1,32 @@
+body {
+    color: darkslategray;
+    font-size: 75%;
+    font-family: "MS PGothic", Arial, "Hiragino Kaku Gothic ProN", "Osaka", sans-serif
+}
+
+a, a:visited {
+    color: #1d3994;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3dD9E4;
+    text-decoration: underline;
+}
+
+ul.searchswitch {
+    list-style: none;
+    padding: 0;
+}
+
+ul.searchswitch li {
+    display: inline;
+}
+
+img {
+    width: 300px;
+}
+
+div {
+    background-color: #ECFFEF;
+}
