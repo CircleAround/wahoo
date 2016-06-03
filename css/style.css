@@ -14,6 +14,15 @@ a:hover {
     text-decoration: underline;
 }
 
+.clear {
+    clear:both;
+}
+
+.box {
+    border: solid 1px #96CC66;
+    background-color: #ECFFEF;
+}
+
 ul.searchswitch {
     list-style: none;
     padding: 0;
@@ -27,6 +36,27 @@ img {
     width: 300px;
 }
 
-div {
-    background-color: #ECFFEF;
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
 }
+
+#searchbox {
+}
+
+#navi {
+    float: left;
+    width: 170px;
+}
+
+#main {
+    float: left;
+    width: 433px;
+}
+
+#sub {
+    float: right;
+    width: 332px;
+}
+
+
