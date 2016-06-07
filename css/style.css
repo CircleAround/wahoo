@@ -242,6 +242,8 @@ img {
 }
 
 #sub table td {
+    padding-top: 3px;
+    padding-bottom: 4px;
     text-align: center;
 }
 
