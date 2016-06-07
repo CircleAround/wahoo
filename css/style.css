@@ -214,5 +214,36 @@ img {
     font-weight: bold;
 }
 
+#sub .weather h3{
+    margin: 4px 4px;
+}
+
+#sub .wicon {
+    width: 32px;
+    vertical-align: middle;
+}
+
+#sub .weather .hot {
+    color: red;
+}
+
+#sub .weather .cold {
+    color: dodgerblue;
+}
+
+#sub table {
+    background-color: white;
+    width: 100%;
+    margin-top: 4px;
+}
+
+#sub table th{
+    padding: 4px;
+}
+
+#sub table td {
+    text-align: center;
+}
+
 
 
