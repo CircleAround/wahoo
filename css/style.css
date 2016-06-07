@@ -60,6 +60,10 @@ img {
     background-color: white;
 }
 
+#navi ul {
+    margin: 0;
+}
+
 #navi .box {
     margin-bottom: 4px;
 }
