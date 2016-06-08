@@ -111,6 +111,45 @@ img {
 }
 
 #searchbox {
+    padding: 4px 0 8px;
+    margin-bottom: 8px;
+}
+
+#searchbox ul {
+    width: 58%;
+    margin: 4px auto;
+}
+
+#searchbox li {
+    padding-right: 15px;
+}
+
+#searchbox form{
+    width: 58%;
+    margin: 0 auto;
+}
+
+#searchtext {
+    width: 72.5%;
+    height: 34px;
+    font-size: 110%;
+    box-sizing: border-box;
+
+    vertical-align: middle;
+}
+
+.searchbutton {
+    width: 25.3%;
+    height: 34px;
+    font-size: 110%;
+    margin-left: 5px;
+    border: 0;
+
+    color: #fff;
+    background-color: #38f;
+
+    box-sizing: border-box;
+    vertical-align: middle;
 }
 
 #navi {
