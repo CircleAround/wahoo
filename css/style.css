@@ -351,5 +351,28 @@ img {
     text-align: center;
 }
 
+#footer {
+    margin-top: 10px;
+}
+
+#footer .connect {
+    text-align: center;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer li:before {
+    content: " - "
+}
+
+#footer li:first-child:before {
+    content: ""
+}
+
+#footer address {
+    text-align: center;
+}
 
 
