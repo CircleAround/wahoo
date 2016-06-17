@@ -22,18 +22,18 @@ h2 {
     clear:both;
 }
 
-.box {
-    border: solid 1px #96CC66;
-    background-color: #ECFFEF;
-}
-
-ul.searchswitch {
+ul.inlinestyle {
     list-style: none;
     padding: 0;
 }
 
-ul.searchswitch li {
+ul.inlinestyle li {
     display: inline;
+}
+
+.box {
+    border: solid 1px #96CC66;
+    background-color: #ECFFEF;
 }
 
 img {
@@ -58,6 +58,14 @@ img {
     font-weight: normal;
     padding: 3px 7px 2px;
     background-color: white;
+}
+
+#navi ul {
+    margin: 0;
+}
+
+#navi .box {
+    margin-bottom: 4px;
 }
 
 #contentbox ul {
@@ -92,6 +100,11 @@ img {
 
 #contentbox .weather {
     background-image: url('../img/weather.png');
+}
+
+#companybox ul {
+    padding: 3px;
+    line-height: 15px;
 }
 
 #main {
